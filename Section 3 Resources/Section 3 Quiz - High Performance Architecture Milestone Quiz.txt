@@ -1,0 +1,92 @@
+It is time to assess your progress in this area. This is even more important with this section thanks to the large amount of subjects.
+
+1. What is the service that makes monitoring key metrics for your AWS architecture a simple matter? 
+  a. ElastiCache
+  b. Athena
+  c. CloudWatch
+  d. CloudTrail
+
+
+2. What is the native AWS service for ensuring your Docker containers function seamlessly for your solutions that require them? 
+  a. ECS 
+  b. Lambda
+  c. ElastiSearch
+  d. Aurora
+
+
+3. Which service should you consider employing in order to receive data streams from your IoT sensors and process the data in the cloud? 
+  a. AWS Cognito
+  b. AWS Kinesis
+  c. AWS Lambda
+  d. AWS DMS
+
+4.What service does AWS offer for machine learning-based categorization of your data? 
+  a. AWS Macie
+  b. AWS Athena
+  c. AWS CloudTrail
+  d. AWS Aurora
+
+
+5.Which is the best description of AWS Lambda?
+  a. An AWS managed compute pool that is available to run your functions
+  b. An AWS managed storage pool that performs intelligent tiering 
+  c. A machine learning algorithm accessible from AWS EC2 instances 
+  d. An Amazon invented RDBMS
+
+6.What prefix do you use in a route table to direct subnet requests for the Internet to an Internet Gateway? 
+  a. 0.0.0.0/32
+  b. 255.255.255.255/32
+  c. 0.0.0.0/0
+  d. 255.255.255.255/0
+
+
+7. Your supervisor wishes that she could run some basic SQL queries against some large CSV files stored in an S3 bucket. What solution should you recommend? 
+  a. RDS
+  b. DynamoDB
+  c. Neptune
+  d. Athena
+
+
+8.Which engine of ElastiCache is more complex but permits more features? 
+  a. Redis
+  b. SQL
+  c. NoSQL
+  d. Key store
+
+9.What database of AWS RDS is an invention of Amazon? 
+  a. Oracle
+  b. Aurora
+  c. Neptune
+  d. MySQL
+
+
+10. Edge Locations are part of the AWS Global Infrastructure. What service do these important components accommodate? 
+  a. CloudFront
+  b. CloudFormation
+  c. Aurora
+  d. Organizations 
+
+
+11.What service of AWS can perform health checks against AWS resources and direct traffic at healthy hosts? This service resolves IP addresses to names. 
+  a. IAM
+  b. Route 53
+  c. NAT Gateway
+  d. ElastiSearch
+
+
+
+
+
+***************Answer Key****************
+1. c
+2. a
+3. b
+4. a
+5. a
+6. c
+7. d
+8. a
+9. b
+10. a
+11. b
+*****************************************

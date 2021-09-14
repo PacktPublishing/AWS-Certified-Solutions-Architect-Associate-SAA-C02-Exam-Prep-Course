@@ -1,0 +1,93 @@
+Are you ready to prove what you know in the Resilient Architecture section! Here is your milestone quiz. 
+
+
+1. Your company is interested in Aurora for a certain tier of an architecture in AWS. What is the most likely function of this tier? 
+  a. End user interface 
+  b. Database
+  c. Business logic 
+  d. Video streaming
+
+
+2. When creating an instance in EC2 using the Management Console, which step permits you to create a firewall to protect the EC2 operating system accessibility? 
+  a. Tenancy 
+  b. User Data 
+  c. Security Group
+  d. Tags
+
+3.What would the term asynchronous decoupling be equivalent to? 
+  a. Tight decoupling 
+  b. Loose decoupling
+  c. Random decoupling 
+  d. Periodic decoupling 
+
+4.AWS SQS supports two type of queues - the standard queue and what other queue type? 
+  a. Low latency 
+  b. Round robin
+  c. Custom
+  d. FIFO
+
+
+5. What is the model that SNS uses for the movement of messages that it can transfer? 
+  a. Client-Server
+  b. Publisher-Subscriber
+  c. Source-Destination 
+  d. Region-Datacenter
+
+6.Which of the following is not a true statement regarding the API Gateway in AWS? 
+  a. The AWS API Gateway service does not support Websocket protocol
+  b. The API Gateway creates a RESTful API
+  c. The API Gateway ensures support for standard HTTP operations 
+  d. The API Gateway enables stateless client-server communications 
+
+
+7. Where is the definition of the EC2 instances that need to be manipulated in an Auto Scaling group? 
+  a. Groups
+  b. Scaling Options 
+  c. Configuration templates
+  d. CloudFormation
+
+
+8. Which of the following is not a type of Elastic Load Balancer in AWS? 
+  a. Custom Load Balancer
+  b. Application Load Balancer
+  c. Classic Load Balancer
+  d. Network Load Balancer
+
+9. Which ELB component permits you to configure the balancer to listen to specific ports and protocols? 
+  a. Custom Load Balancer
+  b. Application Load Balancer
+  c. Classic Load Balancer
+  d. Network Load Balancer
+
+10. You want to provide cloud-based NFS shares for your on-prem and cloud-based Linux resources. What service should you use?  
+  a. EBS
+  b. EFS
+  c. S3
+  d. FSx
+
+11. What is the default action when there is an error during the execution of a CloudFormation stack? 
+  a. Terminate
+  b. Rollback
+  c. Delete
+  d. Pause
+
+
+
+  ******************Answer Key******************
+  1. b
+  2. c
+  3. b
+  4. d
+  5. b
+  6. a
+  7. c
+  8. a
+  9. d
+  10. b
+  11. b
+  ***********************************************
+
+
+
+
+

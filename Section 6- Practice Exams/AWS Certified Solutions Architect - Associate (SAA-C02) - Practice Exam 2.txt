@@ -1,0 +1,467 @@
+SAA-C02 - Practice Test 2
+
+Description: 
+
+Here is your first practice exam. Use this to check what you need to study further, and also get yourself prepared for the level of difficulty of the actual exam. The answer key is made available after every tenth question.
+Questions: 60
+
+Duration (minutes): 90
+
+Minimum score to pass (percentage): 85
+
+1. How does the AWS S3 standard storage class guarantee durability of data? 
+  a. Objects uploaded to S3 are automatically copied to multiple data centers in multiple availability zones
+  b. Objects uploaded to S3 are automatically backed up to Glacier 
+  c. Objects uploaded to S3 are automatically cached in CloudFront
+  d. Objects uploaded to S3 are automatically backed up to Redshift
+
+2. Whose responsibility is it to secure the hypervisor software used in an EC2 AWS environment?
+  a. Root user
+  b. Hypervisor vendor
+  c. Amazon
+  d. Hardware vendor
+
+3. You need to ensure that data stored in S3 is automatically written to independent datacenters that are geographically far apart. What should you do?
+  a. Create the bucket in multiple regions and configure cross-region replication
+  b. Create an S3 bucket in the appropriate region
+  c. Use EFS instead of S3
+  d. Use Glacier as the storage mechanism of S3 data
+
+4. How can you automate the movement of data in S3 between different storage classes in order to save money? 
+  a. Use a bucket policy 
+  b. Use MFA
+  c. Use versioning 
+  d. Use a lifecycle policy
+
+5. What feature of the API Gateway service permits you to reduce the load on application components?
+  a. Security
+  b. CloudWatch
+  c. CloudFront
+  d. Caching
+
+6. What is often considered the PaaS solution of AWS? 
+  a. Lambda
+  b. Elastic Beanstalk
+  c. Lightsail
+  d. ECS
+
+7. Which of the following is not a common decision criteria for the selection of an AMI? 
+  a. 32-bit or 64-bit
+  b. Operating System 
+  c. Region 
+  d. Storage for the root device 
+  e. Multi-vendor compatability
+
+8. You are implementing a very specialized database software suite on a large EC2 instance. What is the storage you are most likely using for the database software itself in the EC2 instance? 
+  a. EBS  
+  b. EFS
+  c. S3
+  d. FSx
+
+9. Route 53, the DNS service of AWS, has the ability to perform health checks of AWS solutions and then failover to a healthy available node. Which of the following is not a health check that Route 53 can perform? 
+  a. A health check of a web server
+  b. The status of other health checks
+  c. A CloudWatch alarm 
+  d. A CloudTrail pattern
+
+10. What is the purpose of tags in AWS? 
+  a. To permit you a flexible method of categorizing and adding any required information to AWS resources
+  b. To permit the prioritized CPU and memory usage of key services 
+  c. To permit the permissions assignments 
+  d. To automatically replicate data from region to region
+
+Answer key: 1-10
+1. a
+2. c
+3. b
+4. d
+5. d
+6. b
+7. e
+8. a
+9. d
+10. a
+
+
+11. There are several qualities of AWS Redshift that make it a compelling option for a data warehouse solution. One of those qualities is how it stores data. Which statement is true? 
+  a. Redshift stores data in columns
+  b. Redshift stores data in rows 
+  c. Redshift stores data in cells 
+  d. Redshift stores data in key value pairs
+
+12. Which statement about AWS service integration is false? 
+  a. You use IAM groups in order to permit permissions for service to service access
+  b. S3 is a frequent destination for log files and various data objects from EC2 resources 
+  c. Lambda can work with a wide variety of services to help trigger events for Lambda to respond to 
+  d. CloudWatch integrates with a majority of the services for metric monitoring purposes
+
+13. Which of the following statements regarding S3 is correct?
+  a. BitTorrent is supported
+  b. Buckets have a max size of 10 TB
+  c. Objects have a max size of 2 GB
+  d. Objects have a minimum size of 10 MB
+
+14. If you want to ensure that there is heightened security for your AWS root account, what should you consider? 
+  a. Virtual sand boxing 
+  b. Roles 
+  c. MFA
+  d. Logging 
+
+15. You are interested in a cloud-based solution for your large number of SMB shares. What service of AWS should you be looking at? 
+  a. FSx
+  b. EFS
+  c. EBS
+  d. S3
+
+16. Which of the following are valid security related services in AWS? (Choose all that apply)
+  a. KMS
+  b. ECS
+  c. Kinesis 
+  d. IAM
+
+
+17. Why might you get a permissions error when trying to access an object using the https link produced by AWS S3?
+  a. The account used for access is an anonymous Internet account
+  b. The account used to upload the object lacks the permissions to read the object 
+  c. The object is not valid for AWS S3
+  d. There is a bucket name conflict 
+
+18. You have built an EC2 resource in your AWS VPC that is not only mission critical, but needs to be accessible publicly via a DNS friendly name. What should you consider for a public IP address for this resource? 
+  a. AWS Direct Connect address
+  b. Anycast AWS address
+  c. Elastic IP address
+  d. RFC 1918 public address
+
+19. You have discovered Lambda for its serverless compute power and you have decided to make this a key initiative in the coming quarter. You want Lambda to take compute action based on HTTP requests made to your solution. What service should you also consider in addition to Lambda? 
+  a. API Gateway
+  b. ElastiCache
+  c. DynamoDB
+  d. EC2
+
+20. What aspect of AWS Kinesis would be ideal if you need to run SQL queries against your data streams?
+  a. Firehouse
+  b. Streams
+  c. Analytics
+  d. Spatial
+
+Answer key: 11-20
+11. a
+12. a
+13. a
+14. c
+15. a
+16. a and d
+17. a
+18. c
+19. a
+20. c
+
+
+21. What service do you need to explore if your client is already using a very extensive memcached solution?
+  a. DynamoDB 
+  b. ElastiCache
+  c. Redshift
+  d. Aurora
+
+22. What component of the AWS ECS service allows you to be shielded from the underlying servers or clusters for running your AWS containers? 
+  a. EKS
+  b. Lambda
+  c. Fargate
+  d. ECR
+
+23. What is the default interval that EC2 uses to send metric information to AWS CloudWatch? 
+  a. 5 minutes
+  b. 1 minute 
+  c. 30 seconds 
+  d. 15 minutes 
+
+24. As part of the shared security model, what would be a responsibility of AWS when it comes to data storage?
+  a. Eliminating all data from an unused SSD
+  b. Setting encryption on S3 data at rest 
+  c. Setting encryption on EBS data at rest 
+  d. Ensuring the use of HTTPS when transferring data
+
+25. What account has all the privileges and capabilities you can have in the AWS IAM system? 
+  a. The AWS organizations lead account
+  b. The AWS global admin account 
+  c. The root account
+  d. The AWS local admin account
+
+26. You are considering the use of Reserved Instances for EC2 compute resources. What is the range of commitments that is available with this purchase option? 
+  a. 1 to 3 years
+  b. 1 to 2 years 
+  c. 6 months to 1 year 
+  d. 1 to 5 years
+
+27. What type of database is DynamoDB? 
+  a. NoSQL
+  b. RDBMS
+  c. SQL
+  d. Graph
+
+28. What is a major cost and performance consideration when it comes to S3 design? 
+  a. Requests per second
+  b. Total size of the bucket 
+  c. Average size of an object 
+  d. Number of folders used
+
+29. What tool exists in AWS that can provide guidance to you regarding improvements that you can make to your security infrastructure? 
+  a. Trusted advisor
+  b. CloudTrail`
+  c. CloudWatch
+  d. Systems Manager 
+
+30. What should you do if you want to gain metric information for your EC2 instance every one minute? 
+  a. You must ensure that Amazon Linux 2 is the OS for the EC2 instance 
+  b. You should enable detailed monitoring for the instance
+  c. You must enable CloudTrail for the EC2 instance 
+  d. You must enable SNS reporting for the EC2 instance 
+
+Answer key: 21-30
+21. b
+22. c
+23. a
+24. a
+25. c
+26. a
+27. a
+28. a
+29. a
+30. b
+
+
+
+31. What is the fully managed NoSQL database service of AWS?
+  a. DynamoDB
+  b. SQL Server 
+  c. Lambda
+  d. S3
+
+32. Which of the following statements is not true regarding AWS CloudFormation? 
+  a. You must manually delete the resources that a stack has created
+  b. You can use the JSON format to modify and create templates for use with CloudFormation 
+  c. You can use YAML in order to create CloudFormation templates 
+  d. You can configure the exact actions taken upon a failure in the stack 
+
+33. Which of the following AWS solutions are examples of serverless computing? (Choose 2)
+  a. Static website hosting in S3
+  b. EC2
+  c. KMS
+  d. Lambda
+
+34. By default, what happens to an EBS root volume when you terminate the EC2 instance?
+  a. It is moved to S3
+  b. It is moved to Glacier
+  c. It persists
+  d. It is deleted
+
+35. Which of the following statements regarding security groups and Network ACLs is true?
+  a. There is no default Network ACL in the default VPC
+  b. Security groups are stateless
+  c. Network ACLs apply to subnets
+  d. Security groups attach to subnets 
+
+36. What must you do in order to ensure that AWS CloudTrail is monitoring the actions of administrators as they work with the Management Console and AWS CLI against your AWS solutions? 
+  a. You must establish an AWS S3 bucket for CloudTrail storage 
+  b. Do nothing - CloudTrail is enabled automatically for your account
+  c. You must enable CloudWatch which will automatically enable CloudTrail 
+  d. You must enable the CloudTrail service as part of the VPC configuration
+
+37. What component do you use to prove your identity to your EC2 instance when you are ready to access the resource in the AWS cloud?
+  a. Digital Certificate 
+  b. Key Pair
+  c. A one time token 
+  d. A username and password combination
+
+38. Which of the following is not considered a component of the AWS Global Infrastructure? 
+  a. Regions
+  b. Edge Locations
+  c. Availability Zones 
+  d. Domains
+
+39. You are interested in the use of an AWS feature that permits you to control API calls made by various AWS accounts in your Enterprise. What feature targets this? 
+  a. AWS Organizations
+  b. AWS Cognito 
+  c. AWS GreenGrass
+  d. AWS Athena
+
+40. Which services accommodate the loose decoupling of components that make up your AWS solution architecture? (Choose 2)
+  a. API Gateway
+  b. AWS SQS
+  c. CloudTrail 
+  d. CloudFormation 
+
+Answer key: 31-40
+31. a
+32. a
+33. a and d
+34. d
+35. c
+36. b
+37. b
+38. d
+39. a
+40. a and b
+
+
+
+41. What is the name of the virtual firewall that you attach to a network interface of an EC2 instance? 
+  a. Security Group
+  b. Network Access Control List 
+  c. AWS Shield 
+  d. AWS WAF
+
+42. What powerful DDoS protection is enabled in your account by default and is free of charge? 
+  a. AWS Cognito
+  b. AWS Shield Standard
+  c. AWS WAF
+  d. AWS Firewall Manager Standard
+
+43. What AWS service component is used to automate and store cloud-based backups of the files that your users require low latency access to in your on-prem environment? 
+  a. AWS Storage Gateway - Volume Gateway - Cached
+  b. AWS Storage Gateway - Volume Gateway - Stored
+  c. AWS Storage Gateway - Tape Gateway 
+  d. AWS Storage Gateway - File Gateway
+
+44. You would like assistance with discovering PII information that might be inadvertently stored in one of your AWS S3 storage buckets. Which AWS service can help you with this? 
+  a. Macie
+  b. Athena
+  c. Cognito
+  d. Kinesis
+
+45. You are concerned that your charges related to DNS inside of AWS might be large. What pricing model is in use by Route 53? 
+  a. Pay as you go
+  b. Flat rate 
+  c. Deferred 
+  d. Min weighted
+
+46. Which of the following are valid AWS VPC components? (Choose all the apply)
+  a. Subnets 
+  b. Internet Gateway
+  c. ECS
+  d. KMS
+  e. Routing Table
+
+47. What AWS component permits you to control access to services across different AWS accounts? 
+  a. Organizations
+  b. Service Manager
+  c. Systems Manager
+  d. Cost Explorer 
+  e. AWS Budgets
+
+48. You delete an AWS S3 bucket and all of the objects inside it. Which statement is true?
+  a. You can create a new bucket with that name as long as no other S3 customer has now taken the name
+  b. You cannot reuse the bucket name
+  c. The bucket name is always available with a -01 suffix
+  d. The bucket name is now reserved for you
+
+
+49. Which of the following are cost-related services of AWS? (Choose all that apply) 
+  a. Organizations 
+  b. IAM
+  c. CloudWatch
+  d. Cost Explorer 
+  e. Budgets
+
+50. Which two storage services of AWS permit the creation of network shares? (Choose 2)
+  a. S3
+  b. FSx
+  c. EFS
+  d. EBS
+
+Answer key: 41-50
+41. a
+42. b
+43. b
+44. a
+45. a
+46. a, b, and e
+47. a
+48. a
+49. a, d, and e
+50. b and c
+
+
+
+51. What is the purpose of AWS Direct Connect? 
+  a. It permits the establishment of a private connection to the AWS cloud infrastructure
+  b. It permits the isolation of your VPC from other VPCs in your account 
+  c. It permits a high speed backup option to another region 
+  d. It permits the high speed transfer of data within a VPC
+
+52. When you launch a new EC2 instance using the AWS Management Console, what is the default purchase type that you are using? 
+  a. Reserved Instance 
+  b. On-demand
+  c. Spot
+  d. Cost-optimized 
+
+53. Which of the following are valid database services of AWS? (Choose all that apply)
+  a. RDS
+  b. Cognito
+  c. Aurora
+  d. DynamoDB
+  e. Lambda
+  f. KMS
+
+54. Which of the following services are considered compute services of AWS? (Choose all that apply)
+  a. Lambda
+  b. EC2
+  c. ElastiCache
+  d. Kinesis 
+  e. Elastic Beanstalk 
+
+55. If you decide to use eight EC2 instances simultaneously instead of two larger EC2 instances, you are taking advantage of which best practice?
+  a. Elasticity
+  b. Scalability
+  c. Designing for failure
+  d. Working in parallel
+
+56. Which of the following is not a service directly related with Snowball Edge?
+  a. EC2
+  b. RDS
+  c. Lambda
+  d. S3
+
+57. You are interested in the most high performance EBS volume type for your mission-critical EC2 implementation. Which EBS volume type provides the highest potential performance? 
+  a. HDD
+  b. Provisioned IOPS SSD
+  c. General purpose SSD
+  d. Throughput optimized SSD
+
+58. Your client needs you to design an AWS solution that provides a reliable cloud-based storage location for TBs worth of legacy corporate data. What storage service is appropriate? 
+  a. Glacier  
+  b. S3 Standard  
+  c. S3 Infrequent Access
+  d. Redshift
+
+59. What data transfer option permits the use of your external USB drives?
+  a. Storage Gateway
+  b. EBS Transfer
+  c. Import/Export
+  d. Snowball Express
+
+60. You are considering AWS Aurora for your RDS database platform. One of the reasons for this decision is performance and scalability weighed against costs. What is the max database size in Aurora? 
+  a. 8 TB
+  b. 12 TB
+  c. 64 TB
+  d. 128 TB
+
+61. You are considering AWS Aurora for your RDS database platform. One of the reasons for this decision is high availability and resiliency. You have learned that Aurora can feature a continuous and automated backup. What service does AWS use to help achieve this?
+  a. EBS
+  b. Lambda
+  c. Redshift
+  d. S3
+  e. EC2
+
+Answer key: 51-61
+51. a 
+52. b
+53. a, c, and d
+54. a, d, and e
+55. d
+56. b
+57. b
+58. a
+59. c
+60. d
+61. d

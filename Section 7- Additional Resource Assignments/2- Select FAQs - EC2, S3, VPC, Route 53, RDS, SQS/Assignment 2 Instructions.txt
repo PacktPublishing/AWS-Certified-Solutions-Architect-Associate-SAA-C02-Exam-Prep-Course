@@ -1,0 +1,19 @@
+Here are links for you that take you right to select FAQs from Amazon on the following services - EC2, S3, VPC, Route 53, RDS, SQS. Read these FAQs to take your knowledge to the next level on these core foundational services of AWS.
+
+If you are interested in taking your knowledge deeper in some fundamental services of AWS, read these FAQs.
+
+Questions for this assignment
+
+1. Notice how valuable the FAQs are. Name some of the key themes you noticed in the FAQs. 
+
+Download the following resource file:
+'FAQ Reading Links.pdf'
+
+
+*******************************
+
+Instructor example
+
+1. Notice how valuable the FAQs are. Name some of the key themes you noticed in the FAQs.
+
+[Anthony Sequeira] - The FAQs focus documentation around operations, cost-optimization, performance, reliability and security. It is no surprise these areas are the pillars of the well-architected framework.

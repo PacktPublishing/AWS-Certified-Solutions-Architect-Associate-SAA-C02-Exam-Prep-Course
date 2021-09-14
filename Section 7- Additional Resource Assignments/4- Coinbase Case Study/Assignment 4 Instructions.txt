@@ -1,0 +1,45 @@
+In this assignment, you will read about how Coinbase used AWS when they were just a startup. Thanks in great part to AWS, they have been able to thrive!
+
+Read the case study involving Coinbase and AWS here:
+https://aws.amazon.com/solutions/case-studies/coinbase
+
+After reading this case study, answer the questions here in the assignment. Enjoy! 
+
+Questions for this assignment
+
+1. What are the three core tenets of Coinbase?
+
+2. What service controls access to the AWS services used by Coinbase?
+
+3. What AWS service did Coinbase call upon for storage of transactional data?
+
+4. What service does Coinbase pipe their analytics to first?
+
+5. What service does Coinbase use in order to build AWS solutions? 
+
+*****************
+
+Instructor example
+
+
+1. What are the three core tenets of Coinbase?
+
+2. What service controls access to the AWS services used by Coinbase?
+
+3. What AWS service did Coinbase call upon for storage of transactional data?
+
+4. What service does Coinbase pipe their analytics to first?
+
+5. What service does Coinbase use in order to build AWS solutions?
+
+
+[Anthony Sequeira]
+1. Security, scalability, and availability
+
+2. IAM
+
+3. RDS
+
+4. Kinesis
+
+5. CloudFormation

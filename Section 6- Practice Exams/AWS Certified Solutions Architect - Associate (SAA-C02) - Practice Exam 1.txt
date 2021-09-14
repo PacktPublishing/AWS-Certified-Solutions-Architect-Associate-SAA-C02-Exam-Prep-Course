@@ -1,0 +1,461 @@
+SAA-C02 - Practice Test 1
+
+Description: 
+
+Here is your first practice exam. Use this to check what you need to study further, and also get yourself prepared for the level of difficulty of the actual exam. The answer key is made available after every tenth question.
+
+Questions: 60
+
+Duration (minutes): 90
+
+Minimum score to pass (percentage): 80
+
+1. What is the term used in AWS when you are choosing the appropriate CPU and RAM for your EC2 VM?
+  a. Images
+  b. Instances
+  c. Forms
+  d. Tenenacies
+
+2. You have just gained customers for a web-based SaaS app that you are delivering in the US. These customers are located in Asia-Pacific. What service of AWS can assist you with a high-performance delivery of the SaaS app to these new customers?
+  a. CloudFormation
+  b. Lambda
+  c. Elastic Beanstalk
+  d. CloudFront
+
+3. Your client requires very low latency network access because there will be a software suite expecting a high-performance compute environment. What solution should you consider? 
+  a. An EC2 partition placement group  
+  b. An EC2 active clone
+  c. An EC2 spread placement group 
+  d. An EC2 cluster placement group 
+
+4. Your organization has hundreds of terabytes of data that they would like store in the cloud. This data is at a remote site that lacks high bandwidth connectivity to the AWS cloud. What solution should you consider? 
+  a. DMS
+  b. Snowball
+  c. DataSync
+  d. Organizations
+
+5. Which service of AWS is recommended for Linux network file shares?
+  a. EBS
+  b. EFS
+  c. S3
+  d. Glacier
+  e. FSx
+
+6.  What AWS solution is specifically targeted at HPC solutions?
+  a. FSx
+  b. EFS
+  c. EBS
+  d. S3
+
+7. You are assisting a client that needs to classify some key data in the organization. You have decided to use AWS Macie to help you with this task. How can you take the NFS file share information and easily back it up to AWS S3 for analysis by AWS Macie?
+  a. Use the Storage Gateway - File Gateway feature 
+  b. Use the Replication Agent built in to the AWS CLI
+  c. Use the built-in AWS Macie Transfer
+  d. Replicate the NFS share to FSx in AWS
+
+8. To provide the scalability that is required when dealing with massive amounts of data, AWS Redshift creates nodes in what structure?
+  a. Clusters
+  b. Placement groups
+  c. Raid arrays
+  d. SANs
+  e. Network security groups
+
+9. You have been asked to design an S3 infrastructure for your AWS implementation. You must ensure that you protect against accidental object deletion or overwrite. What two mechanisms should you consider implementing? (Choose two)
+  a. Server access logging
+  b. MFA
+  c. Versioning
+  d. Use AWS Shield
+  e. Object lifecycle
+
+10. What can you use inside of an S3 bucket in order to help organize your objects?
+  a. VMs
+  b. Folders
+  c. Containers
+  d. Sub-buckets
+
+Answer Key: 1-10
+1. b
+2. d
+3. d
+4. b
+5. b
+6. a
+7. a
+8. a
+9. b and c
+10. b 
+
+11. Your organization is expanding and you would like to create a mirror of your EC2 instance in another region. How can you perform this?
+  a. Create an AMI for the EC2 instance and copy it to the new region
+  b. Use the cross region EC2 replication feature
+  c. Use an EBS volume for storage that is located in both regions
+  d. Do nothing, when you create an account in the new region, your EC2 instances are duplicated there
+
+12.You are considering your options for databases in AWS. What is an excellent choice for a brand new RDBMS option in AWS? 
+  a. Aurora
+  b. DynamoDB
+  c. ElastiCache
+  d. Athena
+
+13. What are the components that are found in a region for the AWS Global Infrastructure? 
+  a. AWS Direct connects
+  b. Autonomous Systems
+  c. Core Networks
+  d. Availability Zones
+
+14. You are interested in assisting a client revamp their current IoT design. They would like to store their streaming data from many different sensors in an assembly factory to the cloud. They are also interested in data analytics taking place on this data as quickly as possible. Which option should be in your solution? 
+  a. AWS DMS
+  b. AWS DataSync 
+  c. AWS Neptune 
+  d. Kinesis Data Firehouse  
+
+15. You are exploring the Elastic Load Balancer options in AWS. What is the default load balancing algorithm with classic ELB?
+ i. Bandwidth-based
+ ii. Load-based
+ iii. Dykstra
+  a. Bandwidth-based
+  b. Load-based
+  c. FIFO
+  d. Round Robin
+  e. Weighted
+
+16. Which service is not considered a compute service of AWS? 
+  a. Lambda
+  b. EBS
+  c. Elastic Beanstalk
+  d. Lightsail
+
+17. What component of a VPC ensures that EC2 instances can be reached from the Internet?
+  a. Subnet endpoint 
+  b. Internet Gateway
+  c. NAT Gateway
+  d. NAT Instance
+
+18. Which service of AWS is ideal for archiving old log files that you must keep in order to maintain compliance with government regulations?
+  a. Glacier
+  b. EFS
+  c. FSx
+  d. EBS
+  e. S3
+
+19. Where do you associate a Network ACL in AWS?
+  a. A network interface
+  b. A subnet(s)
+  c. An S3 bucket
+  d. An EC2 disk
+
+20. What Route53 concept is the same as a traditional DNS zone file?
+  a. A domain
+  b. A record set
+  c. A hosted zone
+  d. An Edge Location
+
+Answer Key: 11-20
+11. a
+12. a
+13. d
+14. d
+15. d
+16. b
+17. b
+18. a
+19. b
+20. c
+
+21. Which of the resources below are you unable to associate a Web ACL with?
+  a. Application Load Balancer
+  b. AWS API Gateway
+  c. Lambda
+  d. CloudFront
+
+22. When creating a user account, what are two options you can permit for the user to manage AWS? (Choose 2)
+  a. Programmatic access
+  b. Unlimited mode
+  c. API Gateway
+  d. Management Console
+
+23. Which of the following is a frequent approach to emailing a group of administrators when a certain AWS SQS event occurs? 
+  a. CloudWatch
+  b. SNS
+  c. CloudTrail
+  d. EFS
+
+24. What method can you use with MySQL inside of AWS RDS in order to increase HA and performance? 
+  a. Full redundant RDS cross-region 
+  b. Multi-AZ RDS Read Replica
+  c. Provisioned IOPS EBS
+  d. Use the fast caching feature
+
+25. When deciding on SQL Server in AWS, which of the following options is valid?
+  a. Aurora
+  b. DynamoDB
+  c. Neptune
+  d. RDS
+
+26. You want to provision several key local resources as you spin up VMs in AWS. How can you configure custom scripts to launch with your EC2 instances?
+  a. Use the Run During Launch area
+  b. Send the commands via SSH during first boot
+  c. Attach a temporary volume at boot that is prestaged to execute the commands 
+  d. User Data
+
+27. Which statement about the global infrastructure of AWS is false?
+  a. There are Edge Locations which power CloudFront 
+  b. There is at least one AZ per region
+  c. There are several regions in North America 
+  d. Datacenter(s) are located in Availability Zones
+
+28. You are hosting several static Web sites using AWS S3 buckets and the website hosting feature. You have done this to pursue more serverless compute options inside of your solutions. How can you improve the performance of these web sites for your customer?
+  a. Move the hosting to EC2 serverless web
+  b. Use CloudFront with the static web sites
+  c. Move the solution to AWS RDS
+  d. Use Kinesis streams to funnel web requests more quickly to AWS S3
+
+29. You want to store a large amount of simple key value pairs and you are looking for high performance at a low cost in AWS. What would be an appropriate option?
+  a. Neptune
+  b. Aurora
+  c. DynamoDB
+  d. RDS
+
+30. You are planning to use AWS Auto Scaling with EC2 instances for an HTTPS application for your internal customers. What technology should you use in conjunction with this solution?
+  a. Application Load Balancer 
+  b. Classic Load Balancer
+  c. Network Load Balancer
+  d. Batch
+
+Answer Key: 21-30
+21. c
+22. a and d
+23. b
+24. b
+25. d
+26. d
+27. b
+28. b
+29. c
+30. a
+
+31. What feature of AWS is most directly responsible for elasticity?
+  a. AWS Auto Scaling 
+  b. AWS Organizations 
+  c. AWS CloudTrail
+  d. AWS Placement Groups
+  
+32. Which two security resources do you use in a VPC in order to secure traffic? (Choose 2)
+  a. Security Groups
+  b. VLAN Access Control Lists
+  c. Network Access Control Lists
+  d. Virtual IPS (VIPS)
+
+33. THISISIT.IO is interested in hosting several websites using the most cost-effective manner possible. The company is considering web site hosting via S3 buckets. Which two statements are true? (Choose 2)
+  a. The websites can consist of client-side scripts
+  b. The websites can consist of server-side scripts
+  c. The websites cannot consist of content in subdirectories 
+  d. You must set permissions on the bucket contents
+
+34. You are interested in following the best practices recommended by Amazon for the use of the root AWS account. Which two of the following represent these best practices? (Choose 2)
+  a. Ensure you use the root account as little as possible
+  b. Always use MFA on the root account
+  c. Include an inline policy for this root account
+  d. Ensure you add the root user account to a group that has full AWS admin permissions
+  e. Ensure you enable CloudTrail auditing for this root account
+
+35. Which of the following is not considered a key advantage of a migration to cloud technologies?
+  a. Infrastructure as code 
+  b. Pay as you go model
+  c. Full control over all resources
+  d. Flexibility 
+
+36. In addition to the consolidation of billing configurations, what can AWS Organizations assist you with in AWS?
+  a. Placing restrictions on service usage across different AWS accounts of your Enterprise
+  b. Allow for the cross region replication of AWS Neptune 
+  c. Permit the inclusion of your hypervisor software on dedicated instances
+  d. Permit the auditing of AWS internal access to your resources
+
+37. Which two statement below about S3 are false? (Choose 2)
+  a. S3 buckets can be secured with ACLs or a policy
+  b. S3 buckets names must be unique to a region
+  c. By default, the creator of the bucket has full access to the bucket
+  d. Bucket contents can be made globally available
+  e. S3 bucket contents can be password protected, but not encrypted
+
+38. Your boss has asked that you save on AWS expenditures by using reserved instances in EC2. What type of workload is ideal for reserved instance pricing?
+  a. Highly variable
+  b. Memory intensive
+  c. Fixed and predictable
+  d. Disk intensive
+
+39. How do you identify a client managed encryption key from KMS when you are assigning this key to help protect an AWS bucket?
+  a. Use the API endpoint
+  b. Use the ARN
+  c. Use the FQDN 
+  d. Use the VPC endpoint
+
+40. What of the following are compatible with ElastiCache? (Choose 2)
+  a. Jnode
+  b. Memcahced
+  c. SPARQL
+  d. Redis
+
+Answer Key: 31-40
+31. a
+32. a and c
+33. a and d
+34. a and b
+35. c
+36. a
+37. b and e
+38. c
+39. b
+40. b and d
+
+41. Which service of AWS would you use if you must provide resilient cloud-based storage for your SMB shares?
+  a. EFS
+  b. FSx
+  c. EBS
+  d. S3
+  e. Glacier
+
+42. You have approximately 8 Linux EC2 instances that help power a solution in AWS. You plan on using Ansible for the management of these systems. What protocol must you ensure is permitted in the Security Group that is applied to these systems?
+  a. ICMP
+  b. SCP
+  c. SSH
+  d. RDP
+
+43. What purchase option for EC2 resources permits you to "bid" on the price you are willing to pay for compute resources?
+  a. Extended reserved
+  b. Reserved
+  c. Spot
+  d. On-demand
+
+44. What service seeks to assist your developers in deploying applications by building the appropriate infrastructure for them?
+  a. Lambda 
+  b. Redshift
+  c. Elastic Beanstalk
+  d. Lightsail
+
+45. Which of the following AWS services relies on a key-value store approach and supports an unlimited number of objects?
+  a. S3
+  b. EBS 
+  c. EFS
+  d. SQS
+
+46. Which are two common methods of configuring auto scaling for EC2? (Choose 2)
+  a. Scale based on an IAM account 
+  b. Scale based on a monthly schedule 
+  c. Scale based on a CloudWatch metric
+  d. Scale based on Trusted Advisor events 
+
+47. What AWS S3 storage class features a slight reduction in availability?
+  a. Standard
+  b. Infrequent access
+  c. Provisioned-IOPS 
+  d. General
+
+48. Your enterprise needs to store its Customer Managed Keys (CMS) for several AWS services and would also like automated key rotation. Which service of AWS should be used?
+  a. AWS Systems Manager Parameter Store 
+  b. AWS Secrets Manager 
+  c. AWS Shield 
+  d. AWS Key Management Service (KMS)
+
+49. What is a common practice with AWS Aurora should your database be struggling to keep up with the number of requests for information? 
+  a. Create additional AWS accounts in additional regions 
+  b. Create read replicas
+  c. Increase the number of S3 buckets that backup the Aurora service 
+  d. Migrate the solution to AWS RDS
+
+50. In a typical public subnet implementation of a VPC in AWS, what component performs that NAT for you by default? 
+  a. Internet Gateway
+  b. NAT Gateway
+  c. NAT Instance
+  d. VPC Link
+
+Answer Key: 41-50
+41. b
+42. c
+43. c
+44. c
+45. a
+46. b and c
+47. b
+48. d
+49. b
+50. a
+
+51. THISISIT.IO is expanding operations and has created several AWS accounts based on departments of the enterprise. Unfortunately, there have been challenges regarding costs and billings. What tool permits THISISIT.IO to better manage and consolidate billing in the enterprise?
+  a. AWS Organizations
+  b. AWS Glue
+  c. AWS DataSync
+  d. AWS Service Endpoints
+
+52. Which S3 storage class would you consider for cost savings with a wide variety of access patterns of the objects?
+  a. S3 One Zone-Infrequent Access 
+  b. S3 Standard - Infrequent Access
+  c. S3 Intelligent Tiering 
+  d. S3 Standard 
+
+53. Your corporate cloud policy dictates that a remote cold site must be fully equipped the previous month's data sets. It also states that several key resources should be "pre-warmed" in the cold site. Finally, this cold site should be located at least 3,000 miles from the primary site. Which of the following is most likely part of your solution? 
+  a. Replicate S3 data to the remote region
+  b. Use AWS Organizations to deploy Auto DR
+  c. Use AWS EBS to replicate block storage 
+  d. Use the auto deploy feature of AWS RDS
+
+54. Why symbols are used to enclose an object in JSON format?
+  a. {}
+  b. ""
+  c. []
+  d. ()
+
+55. You are interested in using event driven triggers to launch compute functions in AWS without relying on the provisioning and maintenance of EC2 instances. What service should you use?
+  a. Redshift
+  b. ElastiCache
+  c. Lambda
+  d. Kinesis
+
+56. What feature of AWS S3 would help protect your organization against the accidental overwrite of key data in a bucket?
+  a. Server access logging 
+  b. Object lifecycle 
+  c. Versioning
+  d. Folder hierarchy
+
+57. THISISIT.IO is currently doing work in the area of big data. The research time needs timely, low-latency access to some of the data, but the bulk of the data can remain in an archive-like storage location at rest. What type of solution should THISISIT.IO architect? 
+  a. Storage Gateway – Stored Volume
+  b. Storage Gateway – Cached Volume
+  c. Storage Gateway – File Gateway
+  d. Storage Gateway – Tape Gateway
+
+58. Which service of AWS provides block-based storage and is utilized with the EC2 service?
+  a. EFS
+  b. S3
+  c. FSx
+  d. EBS
+
+59. Which statement about security groups in AWS is false?
+  a. A security group is stateless 
+  b. There is a default security group created in your VPC
+  c. A security group is associated with a network interface
+  d. A security group is required when creating an EC2 instance 
+
+60. You are building a new solution in AWS. You are going to need large amounts of compute resources for three business days at the end of every month. What purchase option should be your first consideration? 
+  a. Spot
+  b. Scheduled reserved instances
+  c. One-demand 
+  d. Rotating 
+
+61. Which service is not considered a compute service of AWS? 
+  a. EBS
+  b. Lambda
+  c. Lightsail
+  d. Elastic Beanstalk
+
+Answer Key: 51-61
+51. a
+52. c
+53. a
+54. a
+55. c
+56. c
+57. b
+58. d
+59. a
+60. b
+61. a

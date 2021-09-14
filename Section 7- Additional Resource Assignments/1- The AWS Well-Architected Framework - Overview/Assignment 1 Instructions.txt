@@ -1,0 +1,17 @@
+Here is a great PDF to read that teaches you all about the design goals with AWS that you should consider.
+
+Consider printing or transferring this PDF to your e-reader. You will enjoy it! 
+
+Questions for this assignment
+
+1. Can you name the five AWS well-architected pillars? Which is your favorite to work with?
+
+Download the following resource file:
+'The AWS Well-Architected Framework.pdf'
+
+****************************************
+Instructor example
+
+1. Can you name the five AWS well-architected pillars? Which is your favorite to work with? 
+
+[Anthony Sequeira] - Remember - in brief - it is all about security, reliability, costs, performance, and operational excellence. My favorite to work with has always been performance! 

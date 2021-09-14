@@ -1,0 +1,24 @@
+Section 1 - Assignment Instructions
+
+Please refer to the below spreadsheet shared in the resources:
+'AWS+Sol+Arch+2020+Study+Tracker.xlsx'
+
+You will note that this spreadsheet has a tab for each of the 5 major sections of this course. Under each of those sections, we have listed the major topics to focus on. Note that these are exactly what we focused our lectures around.
+
+For each item, there is a rating column and a notes column. A suggested rating scale for this course would be:
+- 1 - "I have never heard of this technology before!"
+- 2 - "I have heard of it before and I think I know what it does."
+- 3 - "I could teach someone the basics of this technology using a whiteboard."
+- 4 - "I understand beyond the basics of this technology and could suggest a rough design where needed."
+- 5 - "I could assist with designing a detailed architecture that calls upon this technology."
+
+You should note that you can easily pass this exam without taking EVERY topic to a level 5. Use the Practice Exams at the end of the course to help you with gauging your exam readiness.
+
+Question for this assignment:
+What are your thoughts about designing solutions in AWS? Do you have any fears about this pursuit? Spend some time and jot them down.
+
+Instrutor Example:
+Take those thoughts and reframe any that might not be productive to your end goal. For example:
+"I am afraid I will not have time to study all of this."
+Let's reframe that to:
+"This course is very efficient and concise. This will not take me long at all!"

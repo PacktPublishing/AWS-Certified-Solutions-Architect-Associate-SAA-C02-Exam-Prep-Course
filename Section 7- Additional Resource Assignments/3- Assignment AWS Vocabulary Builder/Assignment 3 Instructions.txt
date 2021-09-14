@@ -1,0 +1,92 @@
+This assignment allows you to enhance your AWS vocabulary. This is a critical skill when you are interested in mastering AWS certifications.
+
+
+Here you can see I have created for you a list of AWS terms and their definitions. Feel free to copy and paste from the PDF in order to create flashcards in your favorite flash card application. As always, thank you so much for using our AWS course here on Udemy.
+
+NOTE: This list includes some services and terms that are not covered explicitly in the lectures of this course. I decided to include them as a “just in case” measure. DO NOT LET THESE SHAKE YOUR CONFIDENCE.
+
+
+Questions for this assignment
+
+1. Are you ready to challenge yourself? Can you provide definitions for the following:
+
+Can you provide definitions for the following:
+
+S3
+EC2
+Lambda
+EBS
+EFS
+FSx
+Glacier
+RDS
+Redshift
+ECS
+Aurora
+DynamoDB
+ElastiCache
+Roles
+Trusted Advisor
+
+Download the following resource file:
+'AWS Terms.pdf'
+
+
+*********************************************
+
+Instructor example
+
+
+1. Are you ready to challenge yourself? Can you provide definitions for the following:
+
+Can you provide definitions for the following:
+
+S3
+EC2
+Lambda
+EBS
+EFS
+FSx
+Glacier
+RDS
+Redshift
+ECS
+Aurora
+DynamoDB
+ElastiCache
+Roles
+Trusted Advisor
+
+[Anthony Sequeira]
+S3 - object-based storage that uses buckets
+
+EC2 - the virtual machine compute service of AWS
+
+Lambda - the “classic” serverless compute platform of AWS
+
+EBS - this is the block storage that you can use with EC2 resources
+
+EFS - this is the NFS-based file storage service of AWS
+
+FSx - the extensible storage platform in AWS; currently offers Windows (SMB) and Lustre file systems
+
+Glacier - this is actually a storage class of S3; it is designed for archiving data
+
+RDS - the relational database service of AWS; supporting Oracle, SQL Server, and more
+
+Redshift - this is the database warehouse service of AWS
+
+ECS - this is the Amazon native container platform of AWS
+
+Aurora - this is the Amazon RDBMS that is part of RDS
+
+DynamoDB - this is a high performance NoSQL database invented by Amazon
+
+ElastiCache - a data caching service that supports the common redis and memcached engines
+
+Roles - these are an IAM component that you can use to permit one resource to access other resources and services
+
+Trusted Advisor - this is a built in advisor for improving aspects of your AWS solution
+
+
+
